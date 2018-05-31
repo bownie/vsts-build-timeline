@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "build-timeline",
     "publisher": "Xyglo",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "name": "Build Timeline",
     "description": "Visualisation of the last build to see where it spent its time",
     "public": false,
