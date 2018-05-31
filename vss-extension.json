@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "build-timeline",
     "publisher": "Xyglo",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "name": "Build Timeline",
     "description": "Visualisation of the last build to see where it spent its time",
     "public": false,
@@ -21,19 +21,20 @@
             "properties": {
                 "name": "Build Timeline",
                 "uri": "build-timeline.html",
-                "description": "Visualise the  timeline of the latest build.",
+                "description": "Visualise the timeline of the latest build.",
                 "previewImageUrl": "static/img/TPH-Build-Overview.png",
-                "catalogIconUrl": "",
+                "catalogIconUrl": "static/img/TPH-Build-Overview.png",
                 "supportedSizes": [
                     {
                         "rowSpan": 1,
-                        "columnSpan": 3
+                        "columnSpan": 2
                     },
                     {
                         "rowSpan": 1,
-                        "columnSpan": 4
+                        "columnSpan": 3
                     }
-                ]
+                ],
+                "supportedScopes": ["project_team"]
             }
         }
     ],
@@ -47,6 +48,18 @@
             "path": "node_modules/vss-web-extension-sdk/lib",
             "addressable": true,
             "packagePath": "lib"
-        }
+        },
+        {
+			"path": "static/css",
+			"addressable": true
+		},
+		{
+			"path": "static/img",
+			"addressable": true
+		},
+		{
+			"path": "static/screenshots",
+			"addressable": true
+		}
     ]
 }
